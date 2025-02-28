@@ -5,7 +5,7 @@ stages:
 build:
   stage: build
   script:
-    - echo 'Contruyendo el proyecto'
+    - echo 'Construyendo el proyecto'
 
 test:
   stage: test
