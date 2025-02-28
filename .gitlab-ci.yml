@@ -1,16 +1,12 @@
-
 image: busybox
 
-stages:
-  - build
-  - test
-
-build:
-  stage: build
+pages:
+  stage: deploy
   script:
-    - echo 'Construyendo el proyecto'
-
-test:
-  stage: test
-  script:
-    - echo 'Testeando el proyecto'
+  - echo 'Nothing to do...'
+  artifacts:
+    paths:
+    - public
+    expire_in: 1 day
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
