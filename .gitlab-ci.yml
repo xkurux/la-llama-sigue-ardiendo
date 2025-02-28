@@ -1,3 +1,5 @@
+image: busybox
+
 stages:
   - build
   - test
