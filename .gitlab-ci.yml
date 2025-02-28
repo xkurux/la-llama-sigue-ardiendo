@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 image: busybox
 
 stages:
@@ -14,6 +14,3 @@ test:
   stage: test
   script:
     - echo 'Testeando el proyecto'
-=======
-# The Docker image that will be used to build your app
->>>>>>> feafaf8b81d58a4571ba8001e5c96b877050b150
