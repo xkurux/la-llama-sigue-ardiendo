@@ -1,13 +1,21 @@
-h1{
+h1 {
     font-family: 'RoughTypewriter', sans-serif;
-                                                
+
 }
+
 /*
     Pantalla Extra Large (>=1200px)
 */
 @media(min-width:1200px) {
     h1 {
-        font-size: 8em;
+        font-size: 6em;
+    }
+
+    #caja1 {
+        margin-right: -3em;
+    }
+    #caja2 {
+        margin-left:  -3em;
     }
 }
 
@@ -16,7 +24,13 @@ h1{
  */
 @media(min-width:992px) and (max-width:1199px) {
     h1 {
-        font-size: 7em;
+        font-size: 5em;
+    }
+    #caja1 {
+        margin-right: -2em;
+    }
+    #caja2 {
+        margin-left:  -2em;
     }
 }
 
@@ -25,7 +39,7 @@ h1{
  */
 @media(min-width:768px) and (max-width:991px) {
     h1 {
-        font-size: 6em;
+        font-size: 4em;
     }
 }
 
@@ -34,7 +48,7 @@ h1{
  */
 @media(min-width:576px) and (max-width:767px) {
     h1 {
-        font-size: 5em;
+        font-size: 4em;
     }
 }
 

@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="public/css/styles.css">
     <!-- Font Family -->
     <link href="https://fonts.cdnfonts.com/css/roughtypewriter-2" rel="stylesheet">
-                
+
     <title>La llama sigue ardiendo</title>
 </head>
 
@@ -26,13 +26,15 @@
             class="">ardiendo.</span></h1>
     <div class="row px-md-5 mx-md-5 mb-5 pb-5">
         <div class="col-11 col-md-6 col-lg-5 mx-auto">
-            <img class="img-fluid" src="public/img/afiche_la_llama.jpg" alt="">
+            <div class="" id="caja1">
+                <img class="img-fluid rounded" src="public/img/afiche_la_llama.jpg" alt="">
+            </div>
 
         </div>
 
-        <div class="accordion col-11 col-md-6 mb-5 mx-auto rounded" id="accordionExample">
-            <div class="text-light text-center rounded">
-                <div class="my-5 bg-black p-5 rounded bg-gradient">
+        <div class="accordion col-11 col-md-6 col-lg-5 mb-5 mx-auto rounded" id="accordionExample">
+            <div class="text-light text-center rounded" id="caja2">
+                <div class=" bg-black p-5 rounded bg-gradient mb-5">
                     <p>13 de Abril 16:00 Hrs</p>
                     <p><i class="fa-solid fa-location-dot"></i> Cumming 634</p>
                     <p>$5.000</p>
@@ -40,86 +42,134 @@
                         <button class="btn btn-primary opacity-75 fs-2">Entradas</button>
                     </a>
                 </div>
-                <!-- DISTOPIA -->
-                <div class="accordion-item rounded">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button fs-2" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseDistopia" aria-expanded="false" aria-controls="collapseDistopia">
-                            DISTOPIA
-                        </button>
-                    </h2>
-                    <div id="collapseDistopia" class="accordion-collapse collapse  fs-1"
-                        data-bs-parent="#accordionExample">
-                        <img src="public/img/distopia_foto_losgatos.jpg" class="img-fluid" alt="">
-                        <div class="accordion-body">
-                            <div>
-                                <a href="https://www.instagram.com/distopiabanda/" style="text-decoration: none;"><i
-                                        class="fa-brands fa-instagram"></i> Instagram</a>
+                <div id="caja_acordion" class=" d-md-none d-lg-block">
 
-                            </div>
-                            <div>
-                                <a style="text-decoration: none;"
-                                    href="https://open.spotify.com/artist/5er3AR9crcu2FI6YWaGiOb?si=eO8Vb7eLQz6QqkLdYgjZbQ&fbclid=PAZXh0bgNhZW0CMTEAAab1XndEmC3vKfSsAn_04ij3I6kLUt1m3ukxacn3iB7ntSKIlJQ2prLW_cw_aem_9taUyJDfBPhgJ0_keEZN_g"><i
-                                        class="fa-brands fa-spotify"></i> Spotify</a>
+                    <!-- DISTOPIA -->
+                    <div class="accordion-item rounded d-md-block">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseDistopia" aria-expanded="false"
+                                aria-controls="collapseDistopia">
+                                DISTOPIA
+                            </button>
+                        </h2>
+                        <div id="collapseDistopia" class="accordion-collapse collapse  fs-4"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="d-inline-block">
+                                    <a href="https://www.instagram.com/distopiabanda/" style="text-decoration: none;"><i
+                                            class="fa-brands fa-instagram"></i> Instagram</a>
 
-                            </div>
-                            <div>
-                                <a href="https://distopiabanda.bandcamp.com" style="text-decoration: none;"><i
-                                        class="fa-brands fa-bandcamp"></i> BandCamp</a>
-                            </div>
-                            <div>
-                                <a href="https://music.youtube.com/channel/UC5jzXjKNXiPmoroYLv-imng"
-                                    style="text-decoration: none;"><i class="fa-brands fa-youtube"></i> Youtube Music</a>
+                                </div>
+                                <div class="d-inline-block">
+                                    <a style="text-decoration: none;"
+                                        href="https://open.spotify.com/artist/5er3AR9crcu2FI6YWaGiOb?si=eO8Vb7eLQz6QqkLdYgjZbQ&fbclid=PAZXh0bgNhZW0CMTEAAab1XndEmC3vKfSsAn_04ij3I6kLUt1m3ukxacn3iB7ntSKIlJQ2prLW_cw_aem_9taUyJDfBPhgJ0_keEZN_g"><i
+                                            class="fa-brands fa-spotify"></i> Spotify</a>
+
+                                </div>
+                                <div class="d-inline-block">
+                                    <a href="https://distopiabanda.bandcamp.com" style="text-decoration: none;"><i
+                                            class="fa-brands fa-bandcamp"></i> BandCamp</a>
+                                </div>
+                                <div class="d-inline-block">
+                                    <a href="https://music.youtube.com/channel/UC5jzXjKNXiPmoroYLv-imng"
+                                        style="text-decoration: none;"><i class="fa-brands fa-youtube"></i> Youtube
+                                        Music</a>
+                                </div>
+                                <img src="public/img/distopia_foto_losgatos.jpg" class="img-fluid" height="100" alt="">
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- CIENFUEGOS -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseCienfuegos" aria-expanded="false"
-                            aria-controls="collapseCienfuegos">
-                            CIENFUEGOS
-                        </button>
-                    </h2>
-                    <div id="collapseCienfuegos" class="accordion-collapse collapse fs-1"
-                        data-bs-parent="#accordionExample">
-                        <img src="public/img/cienfuegos.jpg" class="img-fluid" alt="">
+                    <!-- CIENFUEGOS -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseCienfuegos" aria-expanded="false"
+                                aria-controls="collapseCienfuegos">
+                                CIENFUEGOS
+                            </button>
+                        </h2>
+                        <div id="collapseCienfuegos" class="accordion-collapse collapse fs-4"
+                            data-bs-parent="#accordionExample">
 
-                        <div class="accordion-body">
-                            <a href="https://www.instagram.com/cienfuegos._/"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="accordion-body">
+                                <div class="d-inline-block">
+
+                                    <a href="https://www.instagram.com/cienfuegos._/" style="text-decoration: none;"><i
+                                            class="fa-brands fa-instagram"></i>Instagram</a>
+                                </div>
+                                <div class="d-inline-block">
+                                    <a style="text-decoration: none;"
+                                        href="https://open.spotify.com/intl-es/artist/39iTMm8DZpNxGXnQz89b8Q?si=xe4F8CbbSVy5IE0lQB5E_A"><i
+                                            class="fa-brands fa-spotify"></i> Spotify</a>
+
+                                </div>
+                                <div class="d-inline-block">
+                                    <a href="https://cienfuegos1.bandcamp.com/" style="text-decoration: none;"><i
+                                            class="fa-brands fa-bandcamp"></i> BandCamp</a>
+                                </div>
+                                <div class="d-inline-block">
+                                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_kPgM-RfU8jV5JoJ6tOFCI7bxWL_ugcuEg&si=vYgjo5nK4y4rRo_G"
+                                        style="text-decoration: none;"><i class="fa-brands fa-youtube"></i> Youtube
+                                        Music</a>
+                                </div>
+                            </div>
+                            <img src="public/img/cienfuegos.jpg" class="img-fluid" height="100" alt="">
                         </div>
                     </div>
-                </div>
 
-                <!-- W.A.T.R -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseWatr" aria-expanded="false" aria-controls="collapseWatr">
-                            WE ARE THE ROMANS
-                        </button>
-                    </h2>
-                    <div id="collapseWatr" class="accordion-collapse collapse fs-1" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <a href="https://www.instagram.com/cienfuegos._/"><i class="fa-brands fa-instagram"></i></a>
+                    <!-- W.A.T.R -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseWatr" aria-expanded="false" aria-controls="collapseWatr">
+                                WE ARE THE ROMANS
+                            </button>
+                        </h2>
+                        <div id="collapseWatr" class="accordion-collapse collapse fs-4"
+                            data-bs-parent="#accordionExample">
+
+                            <div class="accordion-body">
+                                <a href="https://www.instagram.com/w.a.t.r.band/" style="text-decoration: none;"><i
+                                        class="fa-brands fa-instagram"></i>Instagram</a>
+                            </div>
+                            <img src="public/img/watr.jpg" class="img-fluid" height="100" alt="">
                         </div>
                     </div>
-                </div>
 
-                <!-- E.C.D.L.I. -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseEcdli" aria-expanded="false" aria-controls="collapseEcdli">
-                            EL CIRCULO DE LA IRA
-                        </button>
-                    </h2>
-                    <div id="collapseEcdli" class="accordion-collapse collapse fs-1" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <a href="https://www.instagram.com/cienfuegos._/"><i class="fa-brands fa-instagram"></i></a>
+                    <!-- E.C.D.L.I. -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEcdli" aria-expanded="false" aria-controls="collapseEcdli">
+                                EL CIRCULO DE LA IRA
+                            </button>
+                        </h2>
+                        <div id="collapseEcdli" class="accordion-collapse collapse fs-4"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="d-inline-block">
+
+                                    <a href="https://www.instagram.com/cienfuegos._/" style="text-decoration: none;"><i
+                                            class="fa-brands fa-instagram"></i>Instagram</a>
+                                </div>
+                                <div class="d-inline-block">
+                                    <a style="text-decoration: none;"
+                                        href="https://open.spotify.com/intl-es/artist/39iTMm8DZpNxGXnQz89b8Q?si=xe4F8CbbSVy5IE0lQB5E_A"><i
+                                            class="fa-brands fa-spotify"></i> Spotify</a>
+
+                                </div>
+                                <div class="d-inline-block">
+                                    <a href="https://cienfuegos1.bandcamp.com/" style="text-decoration: none;"><i
+                                            class="fa-brands fa-bandcamp"></i> BandCamp</a>
+                                </div>
+                                <div class="d-inline-block">
+                                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_kPgM-RfU8jV5JoJ6tOFCI7bxWL_ugcuEg&si=vYgjo5nK4y4rRo_G"
+                                        style="text-decoration: none;"><i class="fa-brands fa-youtube"></i> Youtube
+                                        Music</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -127,51 +177,107 @@
                 <!-- NADA QUEDA -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseNadaqueda" aria-expanded="false" aria-controls="collapseNadaqueda">
                             NADA QUEDA
                         </button>
                     </h2>
-                    <div id="collapseNadaqueda" class="accordion-collapse collapse fs-1"
+                    <div id="collapseNadaqueda" class="accordion-collapse collapse fs-4"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <a href="https://www.instagram.com/cienfuegos._/"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="d-inline-block">
+
+                                <a href="https://www.instagram.com/nadaqueda_/" style="text-decoration: none;"><i
+                                        class="fa-brands fa-instagram"></i>Instagram</a>
+                            </div>
+                            <div class="d-inline-block">
+                                <a style="text-decoration: none;"
+                                    href="https://open.spotify.com/intl-es/artist/39iTMm8DZpNxGXnQz89b8Q?si=xe4F8CbbSVy5IE0lQB5E_A"><i
+                                        class="fa-brands fa-spotify"></i> Spotify</a>
+
+                            </div>
+                            <div class="d-inline-block">
+                                <a href="https://cienfuegos1.bandcamp.com/" style="text-decoration: none;"><i
+                                        class="fa-brands fa-bandcamp"></i> BandCamp</a>
+                            </div>
+                            <div class="d-inline-block">
+                                <a href="https://music.youtube.com/playlist?list=OLAK5uy_kPgM-RfU8jV5JoJ6tOFCI7bxWL_ugcuEg&si=vYgjo5nK4y4rRo_G"
+                                    style="text-decoration: none;"><i class="fa-brands fa-youtube"></i> Youtube
+                                    Music</a>
+                            </div>
                         </div>
+                        <img src="public/img/nadaqueda.jpg" class="img-fluid" height="100" alt="">
                     </div>
                 </div>
 
                 <!-- FRACTURA -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseFractura" aria-expanded="false" aria-controls="collapseFractura">
                             FRACTURA
                         </button>
                     </h2>
-                    <div id="collapseFractura" class="accordion-collapse collapse fs-1"
+                    <div id="collapseFractura" class="accordion-collapse collapse fs-4"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <a href="https://www.instagram.com/cienfuegos._/"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="d-inline-block">
+
+                                <a href="https://www.instagram.com/fractura.hc/" style="text-decoration: none;"><i
+                                        class="fa-brands fa-instagram"></i>Instagram</a>
+                            </div>
+                            <div class="d-inline-block">
+                                <a style="text-decoration: none;"
+                                    href="https://open.spotify.com/intl-es/artist/39iTMm8DZpNxGXnQz89b8Q?si=xe4F8CbbSVy5IE0lQB5E_A"><i
+                                        class="fa-brands fa-spotify"></i> Spotify</a>
+
+                            </div>
+                            <div class="d-inline-block">
+                                <a href="https://cienfuegos1.bandcamp.com/" style="text-decoration: none;"><i
+                                        class="fa-brands fa-bandcamp"></i> BandCamp</a>
+                            </div>
+                            <div class="d-inline-block">
+                                <a href="https://music.youtube.com/playlist?list=OLAK5uy_kPgM-RfU8jV5JoJ6tOFCI7bxWL_ugcuEg&si=vYgjo5nK4y4rRo_G"
+                                    style="text-decoration: none;"><i class="fa-brands fa-youtube"></i> Youtube
+                                    Music</a>
+                            </div>
                         </div>
+                        <img src="public/img/fractura.jpeg" class="img-fluid" height="100" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="mt-5 pt-5 text-center">
-        <div class=" bg-black b-gradient  mt-5 px-5 py-5">
-            <div class="bg-white rounded-circle d-inline py-3">
-                <img id="copyleft" src="https://static.cdnlogo.com/logos/c/99/copyleft.svg" class="img-flui "
-                    height="50" width="50">
-            </div>
-            <div class="d-inline mx-2 py-5 mt-5">                
-                <img src="https://disroot.org/user/themes/disroot/images/favicon.png" class="m-2" height="25" alt="">
-                <!-- <i class="fa-solid fa-envelope mx-2" ></i> --><a href="mailto:DISTOPIAHC@DISROOT.ORG" style="text-decoration: none; color: white;"> DISTOPIAHC@DISROOT.ORG</a>
-            </div>
-            <div class="d-inline mx-2 py-5 mt-5">                
-                <img src="https://instagram.fscl34-1.fna.fbcdn.net/v/t51.2885-19/472253259_1278040923437678_7951527616027970236_n.jpg?_nc_ht=instagram.fscl34-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2AH9kKP-UWMkvIkuwy7u-nKNuxSUiLqdkweODzPi64NxLQn3svNyjCuVXITBlsmlD4o&_nc_ohc=yNuTkNm0H8AQ7kNvgGNIX32&_nc_gid=4375b0c0b70d44439d3b284ec1c50187&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYCz1WWfeo3cgBTl_g5wAec6TXYQokthAFFTtpuVBrDIMg&oe=67C99EA1&_nc_sid=7a9f4b" class="m-2" height="" alt="">
+    </div>
+
+    <!-- REPRODUCTOR SPOTIFY -->
+    <div class="elementor-element elementor-element-1f58c33 elementor-widget elementor-widget-audio col-lg-10 mx-auto rounded border border-white "
+        data-id="1f58c33" data-element_type="widget" data-widget_type="audio.default">
+        <div class="elementor-widget-container rounded">
+            <div class="elementor-soundcloud-wrapper rounded">
+                <iframe width="100%" height="352" frameborder="0" allowfullscreen
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+                    src="https://open.spotify.com/embed/artist/5er3AR9crcu2FI6YWaGiOb?si=syug_jptQM-qeOVMMocnfg&#038;utm_source=oembed&#038;auto_play=false&#038;buying=true&#038;liking=true&#038;download=true&#038;sharing=true&#038;show_comments=true&#038;show_playcount=true&#038;show_user=true&#038;show_artwork=false&#038;color"></iframe>
             </div>
         </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="mt-5 pt-5 text-center">
+        <div class=" bg-black b-gradient  mt-5 px-5 py-5">
+            <div class=" py-3">
+                <img src="/public/img/copyleft_logo_icon_black_white.png" alt="" height="50" width="50">
+                <div class="d-inline mx-2 py-5 mt-5">
+                    <img src="https://disroot.org/user/themes/disroot/images/favicon.png" class="m-2" height="25"
+                        alt="">
+                    <a href="mailto:DISTOPIAHC@DISROOT.ORG" style="text-decoration: none; color: white;">
+                        DISTOPIAHC@DISROOT.ORG</a>
+                </div>
+                <div class="d-inline mx-2 py-5 mt-5">
+                    <img src="https://instagram.fscl34-1.fna.fbcdn.net/v/t51.2885-19/472253259_1278040923437678_7951527616027970236_n.jpg?_nc_ht=instagram.fscl34-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2AH9kKP-UWMkvIkuwy7u-nKNuxSUiLqdkweODzPi64NxLQn3svNyjCuVXITBlsmlD4o&_nc_ohc=yNuTkNm0H8AQ7kNvgGNIX32&_nc_gid=4375b0c0b70d44439d3b284ec1c50187&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYCz1WWfeo3cgBTl_g5wAec6TXYQokthAFFTtpuVBrDIMg&oe=67C99EA1&_nc_sid=7a9f4b"
+                        class="m-2" height="" alt="">
+                </div>
+            </div>
     </footer>
 </body>
 
