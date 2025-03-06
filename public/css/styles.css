@@ -2,7 +2,15 @@ h1 {
     font-family: 'RoughTypewriter', sans-serif;
 
 }
-
+.img_bandas{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+.btn{
+    background-color: rgb(2, 95, 135);
+    border-color: rgb(2, 92, 124);
+}
 /*
     Pantalla Extra Large (>=1200px)
 */
